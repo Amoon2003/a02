@@ -36,4 +36,16 @@ def run_tests():
 
 def powers(n):
 
+    if n == 1 or n == 8 or n == 27:
+        print("Cube")
+
+    elif n == 2 or n == 4 or n == 9 or n == 16 or n == 25 or n == 36 or n == 49 or n == 81 or n == 100:
+        print("Square")
+
+    elif n == 64:
+        print ("Square and Cube")
+
+    else:
+        print ("Not a power")
+
 
